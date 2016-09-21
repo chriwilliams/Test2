@@ -12,7 +12,7 @@
   @PB152997-01
   Scenario: I want to create an arm(s) with an associated arm ratio and code for my study.
     Given In Balance I add arm "Test Arm 1" with a ratio of 2 and code "4"
-    And I should see "Tree"
+    And I should see "Tree1"
     Then In Balance I verify the "study arms" table has contents of:
       | Name       | Code | Ratio |
       | Test Arm 1 | 4    | 2     |
