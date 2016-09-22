@@ -21,6 +21,7 @@
   @Balance
   @PB152997-02
   Scenario: I want to update an arm ratio within my study.
+    And I should see a tree
     Given In Balance I update arm "Test Arm 1" ratio to 3
     Then In Balance I verify the "Ratio" column of "study arms" table does not contain "2"
     Then In Balance I verify the "study arms" table has contents of:
